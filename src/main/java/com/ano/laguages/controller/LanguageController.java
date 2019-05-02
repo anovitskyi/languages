@@ -8,7 +8,7 @@ public class LanguageController {
 
     @GetMapping(value = "/say-hello", produces = "text/plain")
     public String sayHello() {
-        return "Hello world";
+        return "Hello world 2";
     }
 
 }
